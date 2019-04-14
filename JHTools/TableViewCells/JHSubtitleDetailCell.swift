@@ -42,6 +42,7 @@ public class JHSubtitleDetailCell: UITableViewCell {
         // Set up the cell
         addDetailView(withText: detail)
         setUpTitles(forTitle: mainTitleText, forDescription: subtitleText, forDetail: detail)
+        tag = -1
     }
     
     /**
