@@ -26,7 +26,7 @@ public class JHTitleCell: UITableViewCell {
     
     // MARK: Inits
     
-    init(title titleName: String, fontSize: CGFloat, backgroundStyle: UIBackgroundType = .light, withViewAllButton viewAll: Bool = false, buttonTitle: String = "Edit") {
+    public init(title titleName: String, fontSize: CGFloat, backgroundStyle: JHBackgroundType = .light, withViewAllButton viewAll: Bool = false, buttonTitle: String = "Edit") {
         super.init(style: .default, reuseIdentifier: nil)
         // set to darkbackground if desired
         if backgroundStyle == .dark {

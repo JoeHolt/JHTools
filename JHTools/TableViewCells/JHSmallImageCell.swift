@@ -12,7 +12,7 @@ import UIKit
  */
 public class JHSmallImageCell: UITableViewCell {
     
-    init(title: String, image: String) {
+    public init(title: String, image: String) {
         super.init(style: .default, reuseIdentifier: nil)
         setUp(forTitle: title, imageTitle: image)
     }

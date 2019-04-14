@@ -26,7 +26,7 @@ public extension String {
      Trims and returns the given string with only the first chars capitalized
      - parameter splitBy: char to split string by when captializing firt letter
     */
-    internal func capitalizingFirstLetter(splitBy splitChar: Character) -> String {
+    func capitalizingFirstLetter(splitBy splitChar: Character) -> String {
         let str = self.trimmingCharacters(in: .whitespaces)
         let split = str.split(separator: splitChar)
         var ret: String = ""

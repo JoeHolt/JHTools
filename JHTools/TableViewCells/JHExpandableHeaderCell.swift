@@ -15,9 +15,9 @@ public class JHExpandableHeaderCell: UITableViewCell {
     
     // MARK: Properties
     
-    internal var isExpanded: Bool!
-    internal var subCells: [JHExpandableSubCell]!
-    internal var propertyIdentifier: String!    // identifier for filter this sets
+    public var isExpanded: Bool!
+    public var subCells: [JHExpandableSubCell]!
+    public var propertyIdentifier: String!    // identifier for filter this sets
     private var nFilters: Int = 0
     private var rightDetailLabel: UILabel!
     
@@ -26,7 +26,7 @@ public class JHExpandableHeaderCell: UITableViewCell {
     /**
      Inits with given subsells and title
     */
-    init(withSubcells subCells: [JHExpandableSubCell], _ title: String, propertyIdentifier id: String) {
+    public init(withSubcells subCells: [JHExpandableSubCell], _ title: String, propertyIdentifier id: String) {
         super.init(style: .subtitle, reuseIdentifier: "headerCell")
         
         self.subCells = subCells
@@ -48,7 +48,7 @@ public class JHExpandableHeaderCell: UITableViewCell {
     /**
      Updates the right and sub detail labels
     */
-    internal func updatedDetailLabels() {
+    public func updatedDetailLabels() {
         self.detailTextLabel?.text = JHExpandableHeaderCell.getActiveSubcellDescription(forHeaderCell: self)
         updateNumberFiltersLabel()
     }

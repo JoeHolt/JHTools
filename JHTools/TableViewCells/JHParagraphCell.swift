@@ -20,7 +20,7 @@ public class JHParagraphCell: UITableViewCell {
     
     // MARK: Inits
     
-    init(description: String, fontSize: CGFloat = 13.0) {
+    public init(description: String, fontSize: CGFloat = 13.0) {
         super.init(style: .default, reuseIdentifier: nil)
         self.displayDescription = description
         selectionStyle = .none

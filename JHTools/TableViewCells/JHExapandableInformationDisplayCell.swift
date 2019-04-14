@@ -23,7 +23,7 @@ public class JHExapandableInformationDisplayCell: UITableViewCell {
     
     // MARK: Inits
     
-    init(title: String, detailText: String, expandText: String) {
+    public init(title: String, detailText: String, expandText: String) {
         super.init(style: .default, reuseIdentifier: nil)
         selectionStyle = .none
         setUpTitleLabel(forText: title)
@@ -42,7 +42,7 @@ public class JHExapandableInformationDisplayCell: UITableViewCell {
     /**
      Expands the cell, requires a relayout
     */
-    internal func expandCell() {
+    public func expandCell() {
         self.expandLabel.text = self.expandText
         self.detailLabel.alpha = 0.0
         self.arrowView.alpha = 0.0

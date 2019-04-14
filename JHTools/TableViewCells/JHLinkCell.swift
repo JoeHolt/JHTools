@@ -15,13 +15,13 @@ public class JHLinkCell: UITableViewCell {
     
     // MARK: Instance variables
     
-    internal var link: String!
+    public var link: String!
     private var linkTitleLabel: UILabel!
     private var iconView: UIImageView!
 
     // MARK: Inits
     
-    init(title: String, link: String, image: String) {
+    public init(title: String, link: String, image: String) {
         super.init(style: .default, reuseIdentifier: nil)
         self.link = link
         setUpTitleLabel(withText: title)

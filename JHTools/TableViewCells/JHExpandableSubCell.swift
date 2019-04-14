@@ -15,11 +15,11 @@ public class JHExpandableSubCell: UITableViewCell {
 
     // MARK: Properties
     
-    internal var value: String! // value that this cell holds
+    public var value: String! // value that this cell holds
     
     // MARK: Inits
     
-    init(forTitle title: String, withValue value: String? = nil) {
+    public init(forTitle title: String, withValue value: String? = nil) {
         super.init(style: .subtitle, reuseIdentifier: "subCell")
         if let value = value {
             self.value = value

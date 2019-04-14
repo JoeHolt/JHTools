@@ -15,7 +15,7 @@ public class JHSeperatorCell: UITableViewCell {
     
     // MARK: Styles
     
-    enum style {
+    public enum style {
         case normal
         case light
     }
@@ -29,7 +29,7 @@ public class JHSeperatorCell: UITableViewCell {
     /**
      Makes a new seperator cell with a given style
     */
-    init(style: JHSeperatorCell.style) {
+    public init(style: JHSeperatorCell.style) {
         super.init(style: .default, reuseIdentifier: nil)
         selectionStyle = .none
         self.style = style

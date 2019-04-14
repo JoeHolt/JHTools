@@ -19,7 +19,7 @@ public class JHActionCell: UITableViewCell {
      Inits a new action cell with a given title
      - parameter title: title of cell
     */
-    init(title: String) {
+    public init(title: String) {
         super.init(style: .default, reuseIdentifier: nil)
         setUp(title: title)
     }

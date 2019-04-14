@@ -25,7 +25,7 @@ public class JHInformationDisplayCell: UITableViewCell {
      - parameter title: text to be displayed in left label
      - parameter info: text to be displayed in right label
     */
-    init(title: String, info: String) {
+    public init(title: String, info: String) {
         super.init(style: .default, reuseIdentifier: nil)
         selectionStyle = .none
         setUpLeftLabel(withText: title)

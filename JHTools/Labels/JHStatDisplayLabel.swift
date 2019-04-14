@@ -25,7 +25,7 @@ public class JHStatDisplayLabel: UIView {
      - parameter forData: data to display
      - parameter description: of statistic
     */
-    init(forData data: String, description: String) {
+    public init(forData data: String, description: String) {
         super.init(frame: CGRect.zero)
         setUpDataLabel(forData: data)
         setUpDescriptionLabel(forDescription: description)

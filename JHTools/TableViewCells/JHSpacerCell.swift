@@ -16,7 +16,7 @@ public class JHSpacerCell: UITableViewCell {
     /**
      Inits cell of given height
     */
-    init(ofHeight height: CGFloat) {
+    public init(ofHeight height: CGFloat) {
         super.init(style: .default, reuseIdentifier: nil)
         self.heightAnchor.constraint(equalToConstant: height).isActive = true
         backgroundColor = UIColor.darkBackground

@@ -23,7 +23,7 @@ public class JHHeaderSubHeaderCell: UITableViewCell {
     
     // MARK: Init
     
-    init(title: String, subtitle: String, headerSize: CGFloat = 30.0, subHeaderSize: CGFloat = 20.0) {
+    public init(title: String, subtitle: String, headerSize: CGFloat = 30.0, subHeaderSize: CGFloat = 20.0) {
         super.init(style: .default, reuseIdentifier: nil)
         self.headerTitle = title
         self.headerSubtitle = subtitle

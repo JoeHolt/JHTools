@@ -19,7 +19,7 @@ public class JHStatisticsCollectionCell: UITableViewCell {
     
     // MARK: Init
     
-    init(statView views: [JHStatDisplayLabel]) {
+    public init(statView views: [JHStatDisplayLabel]) {
         super.init(style: .default, reuseIdentifier: nil)
         selectionStyle = .none
         setUpStackView()

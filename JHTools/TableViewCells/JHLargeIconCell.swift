@@ -21,7 +21,7 @@ public class JHLargeIconCell: UITableViewCell {
     
     // MARK: Inits
     
-    init(title: String, image: String, outlineIcon: Bool) {
+    public init(title: String, image: String, outlineIcon: Bool) {
         self.title = title
         self.image_title = image
         self.outlineIcon = outlineIcon

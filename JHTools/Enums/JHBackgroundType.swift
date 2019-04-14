@@ -6,9 +6,7 @@
 //  Copyright © 2019 Joe Holt. All rights reserved.
 //
 
-import UIKit
-
-enum UIBackgroundType: String {
+public enum JHBackgroundType: String {
     case light
     case dark
 }

@@ -19,8 +19,8 @@ public class JHSubtitleDetailCell: UITableViewCell {
     
     private let mainTitleText: String!
     private let subtitleText: String!
-    private let creditRange: String!
-    private var creditLabel: UILabel!
+    private let detail: String!
+    private var detailLabel: UILabel!
     
     // MARK: Inits
     
@@ -30,18 +30,18 @@ public class JHSubtitleDetailCell: UITableViewCell {
      - parameter courseDescription: string of description of the course to be displayed
      - parameter creditRange: string representing the credit range of this course
     */
-    init(courseName name: String, courseDescription description: String, creditRange credits: String) {
+    public init(titleText name: String, subtitleText subtitle: String, detailedText detail: String) {
         // Set instance fields
-        self.mainTitleText = description
+        self.mainTitleText = subtitle
         self.subtitleText = name
-        self.creditRange = credits
+        self.detail = detail
         // Init super class
         super.init(style: .subtitle, reuseIdentifier: nil)
         // Other set up
         //accessoryType = .disclosureIndicator
         // Set up the cell
-        addDetailView(withText: creditRange)
-        setUpTitles(forCourseTitle: mainTitleText, forCourseDescription: subtitleText, forCredits: credits)
+        addDetailView(withText: detail)
+        setUpTitles(forTitle: mainTitleText, forDescription: subtitleText, forDetail: detail)
     }
     
     /**
@@ -52,7 +52,7 @@ public class JHSubtitleDetailCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
     }
@@ -65,7 +65,7 @@ public class JHSubtitleDetailCell: UITableViewCell {
      - parameter forCourseDescription: description of course
      - parameter forCredits: credits of course
     */
-    private func setUpTitles(forCourseTitle title: String, forCourseDescription description: String, forCredits credits: String) {
+    private func setUpTitles(forTitle title: String, forDescription description: String, forDetail detail: String) {
         self.textLabel?.text = title
         self.textLabel?.textColor = UIColor.wiscoBodyText
         self.textLabel?.adjustsFontSizeToFitWidth = false
@@ -78,17 +78,17 @@ public class JHSubtitleDetailCell: UITableViewCell {
      Adds a new view for displaying the credits of a class in the cell's accessorry view
     */
     private func addDetailView(withText text: String) {
-        creditLabel = UILabel.init(frame: CGRect(x:0,y:0,width:100,height:20))
-        creditLabel.text = " \(text)"
-        creditLabel.textAlignment = .right
-        creditLabel.translatesAutoresizingMaskIntoConstraints = false
-        creditLabel.textColor = UIColor.wiscoFooterText
-        creditLabel.sizeToFit()
-        accessoryView = creditLabel
-        addSubview(creditLabel)
-        creditLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 0).isActive = true
-        creditLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -20).isActive = true
-        creditLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 20).isActive = true
+        detailLabel = UILabel.init(frame: CGRect(x:0,y:0,width:100,height:20))
+        detailLabel.text = " \(text)"
+        detailLabel.textAlignment = .right
+        detailLabel.translatesAutoresizingMaskIntoConstraints = false
+        detailLabel.textColor = UIColor.wiscoFooterText
+        detailLabel.sizeToFit()
+        accessoryView = detailLabel
+        addSubview(detailLabel)
+        detailLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 0).isActive = true
+        detailLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -20).isActive = true
+        detailLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 20).isActive = true
     }
     
 }

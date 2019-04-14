@@ -8,11 +8,6 @@
 
 import UIKit
 
-enum UIClassDisplayButtonCellDisplayType {
-    case save
-    case remove
-}
-
 /**
  A cell with a save button and elipsis, similar to the app store
 */
@@ -22,8 +17,8 @@ public class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate 
 
     // MARK: Instanse variables
     
-    internal var displayType: UIClassDisplayButtonCellDisplayType!
-    internal var delegate: JHAppStoreButtonDelegate!
+    public var displayType: JHAppStoreButtonStyle!
+    public var delegate: JHAppStoreButtonDelegate!
     private var ellipseButton: JHEllipseButton!
     private var saveButton: JHAppStoreButton!
     private var saveDetailLabel: JHAppStoreDescriptionLabel!
@@ -33,7 +28,7 @@ public class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate 
     /**
      Inits a new cell that has a save and elipse button
     */
-    init(displayType: UIClassDisplayButtonCellDisplayType, delegate: JHAppStoreButtonDelegate) {
+    public init(displayType: JHAppStoreButtonStyle, delegate: JHAppStoreButtonDelegate) {
         super.init(style: .default, reuseIdentifier: nil)
         self.delegate = delegate
         self.displayType = displayType
@@ -81,7 +76,7 @@ public class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate 
      Sets up the save button that saves the class
     */
     private func setUpSaveButton() {
-        if self.displayType == UIClassDisplayButtonCellDisplayType.save {
+        if self.displayType == JHAppStoreButtonStyle.save {
             saveButton = JHAppStoreButton(style: .save)
         } else {
             saveButton = JHAppStoreButton(style: .remove)
@@ -97,7 +92,7 @@ public class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate 
      Sets up a detail label for the save button
     */
     private func setUpSaveDetailLabel() {
-        if self.displayType == UIClassDisplayButtonCellDisplayType.save {
+        if self.displayType == JHAppStoreButtonStyle.save {
             saveDetailLabel = JHAppStoreDescriptionLabel(withTitle: "Save Course \nfor Later")
         } else {
             saveDetailLabel = JHAppStoreDescriptionLabel(withTitle: "Unsave Course \nfor Later")

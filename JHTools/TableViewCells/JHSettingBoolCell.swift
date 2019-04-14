@@ -19,7 +19,7 @@ public class JHSettingBoolCell: UITableViewCell {
     
     // MARK: Variables
     
-    internal var delegate: JHSettingCellUpdateDelegate?
+    public var delegate: JHSettingCellUpdateDelegate?
 
     // MARK: Inits
     
@@ -28,7 +28,7 @@ public class JHSettingBoolCell: UITableViewCell {
      - parameter title: title of cell
      - parameter value: default switch value
     */
-    init(title: String, value: Bool) {
+    public init(title: String, value: Bool) {
         super.init(style: .default, reuseIdentifier: nil)
         setUp(title: title, value: value)
     }
