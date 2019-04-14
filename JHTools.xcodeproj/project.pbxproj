@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69177D1122630D10007D6F53 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69177D0F22630D10007D6F53 /* LICENSE */; };
+		69177D1222630D10007D6F53 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69177D1022630D10007D6F53 /* README.md */; };
 		693D01842262BC8100F410FB /* JHAppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693D01832262BC8100F410FB /* JHAppIcon.swift */; };
 		6959A5362262C1690052A498 /* JHSettingBoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5262262C1690052A498 /* JHSettingBoolCell.swift */; };
 		6959A5372262C1690052A498 /* JHExpandableHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5272262C1690052A498 /* JHExpandableHeaderCell.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69177D0F22630D10007D6F53 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69177D1022630D10007D6F53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		693D01832262BC8100F410FB /* JHAppIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAppIcon.swift; sourceTree = "<group>"; };
 		6959A5262262C1690052A498 /* JHSettingBoolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSettingBoolCell.swift; sourceTree = "<group>"; };
 		6959A5272262C1690052A498 /* JHExpandableHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHExpandableHeaderCell.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 		69FF269B22628D30003D68AC = {
 			isa = PBXGroup;
 			children = (
+				69177D0F22630D10007D6F53 /* LICENSE */,
+				69177D1022630D10007D6F53 /* README.md */,
 				69FF26A722628D30003D68AC /* JHTools */,
 				69FF26B222628D30003D68AC /* JHToolsTests */,
 				69FF26A622628D30003D68AC /* Products */,
@@ -319,6 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69177D1222630D10007D6F53 /* README.md in Resources */,
+				69177D1122630D10007D6F53 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
