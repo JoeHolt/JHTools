@@ -26,6 +26,8 @@
 		6959A5432262C1690052A498 /* JHSaveElipsisButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5332262C1690052A498 /* JHSaveElipsisButtonCell.swift */; };
 		6959A5442262C1690052A498 /* JHSpacerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5342262C1690052A498 /* JHSpacerCell.swift */; };
 		6959A5452262C1690052A498 /* JHTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5352262C1690052A498 /* JHTitleCell.swift */; };
+		69BC4C89226313CF0063ED7A /* WEBioauthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC4C88226313CF0063ED7A /* WEBioauthType.swift */; };
+		69BC4C8B226313D60063ED7A /* WEAuthentificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC4C8A226313D60063ED7A /* WEAuthentificationHandler.swift */; };
 		69D228BA2262D54800070D86 /* JHEllipseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228B82262D54800070D86 /* JHEllipseButton.swift */; };
 		69D228BB2262D54800070D86 /* JHAppStoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228B92262D54800070D86 /* JHAppStoreButton.swift */; };
 		69D228BD2262D55100070D86 /* JHSegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228BC2262D55100070D86 /* JHSegueFromLeft.swift */; };
@@ -72,6 +74,8 @@
 		6959A5332262C1690052A498 /* JHSaveElipsisButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSaveElipsisButtonCell.swift; sourceTree = "<group>"; };
 		6959A5342262C1690052A498 /* JHSpacerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSpacerCell.swift; sourceTree = "<group>"; };
 		6959A5352262C1690052A498 /* JHTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTitleCell.swift; sourceTree = "<group>"; };
+		69BC4C88226313CF0063ED7A /* WEBioauthType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEBioauthType.swift; sourceTree = "<group>"; };
+		69BC4C8A226313D60063ED7A /* WEAuthentificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEAuthentificationHandler.swift; sourceTree = "<group>"; };
 		69D228B82262D54800070D86 /* JHEllipseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHEllipseButton.swift; sourceTree = "<group>"; };
 		69D228B92262D54800070D86 /* JHAppStoreButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAppStoreButton.swift; sourceTree = "<group>"; };
 		69D228BC2262D55100070D86 /* JHSegueFromLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSegueFromLeft.swift; sourceTree = "<group>"; };
@@ -110,12 +114,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		693D01802262BC4F00F410FB /* Structs */ = {
+		693D01802262BC4F00F410FB /* AppIcon */ = {
 			isa = PBXGroup;
 			children = (
 				693D01832262BC8100F410FB /* JHAppIcon.swift */,
 			);
-			path = Structs;
+			path = AppIcon;
 			sourceTree = "<group>";
 		};
 		6959A5252262C13E0052A498 /* TableViewCells */ = {
@@ -141,6 +145,15 @@
 				6959A5352262C1690052A498 /* JHTitleCell.swift */,
 			);
 			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		69BC4C87226313B60063ED7A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				69BC4C88226313CF0063ED7A /* WEBioauthType.swift */,
+				69BC4C8A226313D60063ED7A /* WEAuthentificationHandler.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		69D228C42262D73300070D86 /* Extensions */ = {
@@ -216,7 +229,8 @@
 				69F949072262C6830042F2E5 /* Segues */,
 				69F949062262C5490042F2E5 /* Labels */,
 				6959A5252262C13E0052A498 /* TableViewCells */,
-				693D01802262BC4F00F410FB /* Structs */,
+				69BC4C87226313B60063ED7A /* Auth */,
+				693D01802262BC4F00F410FB /* AppIcon */,
 				69FF26A822628D30003D68AC /* JHTools.h */,
 				69FF26A922628D30003D68AC /* Info.plist */,
 			);
@@ -345,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69F949032262C2300042F2E5 /* JHTableViewCellConstants.swift in Sources */,
+				69BC4C8B226313D60063ED7A /* WEAuthentificationHandler.swift in Sources */,
 				6959A5362262C1690052A498 /* JHSettingBoolCell.swift in Sources */,
 				6959A5392262C1690052A498 /* JHLinkCell.swift in Sources */,
 				69D228C92262D83700070D86 /* NSMutableAttributedStringExtension.swift in Sources */,
@@ -352,6 +367,7 @@
 				6959A53E2262C1690052A498 /* JHSmallImageCell.swift in Sources */,
 				6959A5422262C1690052A498 /* JHLargeIconCell.swift in Sources */,
 				693D01842262BC8100F410FB /* JHAppIcon.swift in Sources */,
+				69BC4C89226313CF0063ED7A /* WEBioauthType.swift in Sources */,
 				69D228C12262D56400070D86 /* JHStatDisplayLabel.swift in Sources */,
 				6959A5442262C1690052A498 /* JHSpacerCell.swift in Sources */,
 				69D228BA2262D54800070D86 /* JHEllipseButton.swift in Sources */,
