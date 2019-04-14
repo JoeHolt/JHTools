@@ -7,7 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6995FC9422629056009572EC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995FC9322629056009572EC /* UIColorExtension.swift */; };
+		693D01842262BC8100F410FB /* JHAppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693D01832262BC8100F410FB /* JHAppIcon.swift */; };
+		6959A5362262C1690052A498 /* JHSettingBoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5262262C1690052A498 /* JHSettingBoolCell.swift */; };
+		6959A5372262C1690052A498 /* JHExpandableHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5272262C1690052A498 /* JHExpandableHeaderCell.swift */; };
+		6959A5382262C1690052A498 /* JHParagraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5282262C1690052A498 /* JHParagraphCell.swift */; };
+		6959A5392262C1690052A498 /* JHLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5292262C1690052A498 /* JHLinkCell.swift */; };
+		6959A53A2262C1690052A498 /* JHActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A52A2262C1690052A498 /* JHActionCell.swift */; };
+		6959A53B2262C1690052A498 /* JHSeperatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A52B2262C1690052A498 /* JHSeperatorCell.swift */; };
+		6959A53C2262C1690052A498 /* JHInformationDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A52C2262C1690052A498 /* JHInformationDisplayCell.swift */; };
+		6959A53D2262C1690052A498 /* JHExpandableSubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A52D2262C1690052A498 /* JHExpandableSubCell.swift */; };
+		6959A53E2262C1690052A498 /* JHSmallImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A52E2262C1690052A498 /* JHSmallImageCell.swift */; };
+		6959A53F2262C1690052A498 /* JHStatisticsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A52F2262C1690052A498 /* JHStatisticsCollectionCell.swift */; };
+		6959A5402262C1690052A498 /* JHExapandableInformationDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5302262C1690052A498 /* JHExapandableInformationDisplayCell.swift */; };
+		6959A5412262C1690052A498 /* JHHeaderSubHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5312262C1690052A498 /* JHHeaderSubHeaderCell.swift */; };
+		6959A5422262C1690052A498 /* JHLargeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5322262C1690052A498 /* JHLargeIconCell.swift */; };
+		6959A5432262C1690052A498 /* JHSaveElipsisButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5332262C1690052A498 /* JHSaveElipsisButtonCell.swift */; };
+		6959A5442262C1690052A498 /* JHSpacerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5342262C1690052A498 /* JHSpacerCell.swift */; };
+		6959A5452262C1690052A498 /* JHTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959A5352262C1690052A498 /* JHTitleCell.swift */; };
+		69D228BA2262D54800070D86 /* JHEllipseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228B82262D54800070D86 /* JHEllipseButton.swift */; };
+		69D228BB2262D54800070D86 /* JHAppStoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228B92262D54800070D86 /* JHAppStoreButton.swift */; };
+		69D228BD2262D55100070D86 /* JHSegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228BC2262D55100070D86 /* JHSegueFromLeft.swift */; };
+		69D228C02262D56400070D86 /* JHAppStoreDescriptionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228BE2262D56400070D86 /* JHAppStoreDescriptionLabel.swift */; };
+		69D228C12262D56400070D86 /* JHStatDisplayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228BF2262D56400070D86 /* JHStatDisplayLabel.swift */; };
+		69D228C62262D75800070D86 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228C52262D75800070D86 /* UIColorExtension.swift */; };
+		69D228C92262D83700070D86 /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228C72262D83700070D86 /* NSMutableAttributedStringExtension.swift */; };
+		69D228CA2262D83700070D86 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228C82262D83700070D86 /* StringExtension.swift */; };
+		69D228CD2262D8EA00070D86 /* JHBackgroundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D228CC2262D8EA00070D86 /* JHBackgroundType.swift */; };
+		69F949032262C2300042F2E5 /* JHTableViewCellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F949022262C2300042F2E5 /* JHTableViewCellConstants.swift */; };
 		69FF26AF22628D30003D68AC /* JHTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FF26A522628D30003D68AC /* JHTools.framework */; };
 		69FF26B422628D30003D68AC /* JHToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF26B322628D30003D68AC /* JHToolsTests.swift */; };
 		69FF26B622628D30003D68AC /* JHTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FF26A822628D30003D68AC /* JHTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,7 +50,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6995FC9322629056009572EC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		693D01832262BC8100F410FB /* JHAppIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAppIcon.swift; sourceTree = "<group>"; };
+		6959A5262262C1690052A498 /* JHSettingBoolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSettingBoolCell.swift; sourceTree = "<group>"; };
+		6959A5272262C1690052A498 /* JHExpandableHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHExpandableHeaderCell.swift; sourceTree = "<group>"; };
+		6959A5282262C1690052A498 /* JHParagraphCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHParagraphCell.swift; sourceTree = "<group>"; };
+		6959A5292262C1690052A498 /* JHLinkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHLinkCell.swift; sourceTree = "<group>"; };
+		6959A52A2262C1690052A498 /* JHActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHActionCell.swift; sourceTree = "<group>"; };
+		6959A52B2262C1690052A498 /* JHSeperatorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSeperatorCell.swift; sourceTree = "<group>"; };
+		6959A52C2262C1690052A498 /* JHInformationDisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHInformationDisplayCell.swift; sourceTree = "<group>"; };
+		6959A52D2262C1690052A498 /* JHExpandableSubCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHExpandableSubCell.swift; sourceTree = "<group>"; };
+		6959A52E2262C1690052A498 /* JHSmallImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSmallImageCell.swift; sourceTree = "<group>"; };
+		6959A52F2262C1690052A498 /* JHStatisticsCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHStatisticsCollectionCell.swift; sourceTree = "<group>"; };
+		6959A5302262C1690052A498 /* JHExapandableInformationDisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHExapandableInformationDisplayCell.swift; sourceTree = "<group>"; };
+		6959A5312262C1690052A498 /* JHHeaderSubHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHeaderSubHeaderCell.swift; sourceTree = "<group>"; };
+		6959A5322262C1690052A498 /* JHLargeIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHLargeIconCell.swift; sourceTree = "<group>"; };
+		6959A5332262C1690052A498 /* JHSaveElipsisButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSaveElipsisButtonCell.swift; sourceTree = "<group>"; };
+		6959A5342262C1690052A498 /* JHSpacerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSpacerCell.swift; sourceTree = "<group>"; };
+		6959A5352262C1690052A498 /* JHTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTitleCell.swift; sourceTree = "<group>"; };
+		69D228B82262D54800070D86 /* JHEllipseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHEllipseButton.swift; sourceTree = "<group>"; };
+		69D228B92262D54800070D86 /* JHAppStoreButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAppStoreButton.swift; sourceTree = "<group>"; };
+		69D228BC2262D55100070D86 /* JHSegueFromLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSegueFromLeft.swift; sourceTree = "<group>"; };
+		69D228BE2262D56400070D86 /* JHAppStoreDescriptionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAppStoreDescriptionLabel.swift; sourceTree = "<group>"; };
+		69D228BF2262D56400070D86 /* JHStatDisplayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHStatDisplayLabel.swift; sourceTree = "<group>"; };
+		69D228C52262D75800070D86 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		69D228C72262D83700070D86 /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
+		69D228C82262D83700070D86 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		69D228CC2262D8EA00070D86 /* JHBackgroundType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHBackgroundType.swift; sourceTree = "<group>"; };
+		69F949022262C2300042F2E5 /* JHTableViewCellConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHTableViewCellConstants.swift; sourceTree = "<group>"; };
 		69FF26A522628D30003D68AC /* JHTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FF26A822628D30003D68AC /* JHTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHTools.h; sourceTree = "<group>"; };
 		69FF26A922628D30003D68AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,12 +104,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6995FC9022628E37009572EC /* Color */ = {
+		693D01802262BC4F00F410FB /* Structs */ = {
 			isa = PBXGroup;
 			children = (
-				6995FC9322629056009572EC /* UIColorExtension.swift */,
+				693D01832262BC8100F410FB /* JHAppIcon.swift */,
 			);
-			path = Color;
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		6959A5252262C13E0052A498 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				69F949022262C2300042F2E5 /* JHTableViewCellConstants.swift */,
+				6959A52A2262C1690052A498 /* JHActionCell.swift */,
+				6959A5302262C1690052A498 /* JHExapandableInformationDisplayCell.swift */,
+				6959A5272262C1690052A498 /* JHExpandableHeaderCell.swift */,
+				6959A52D2262C1690052A498 /* JHExpandableSubCell.swift */,
+				6959A5312262C1690052A498 /* JHHeaderSubHeaderCell.swift */,
+				6959A52C2262C1690052A498 /* JHInformationDisplayCell.swift */,
+				6959A5322262C1690052A498 /* JHLargeIconCell.swift */,
+				6959A5292262C1690052A498 /* JHLinkCell.swift */,
+				6959A5282262C1690052A498 /* JHParagraphCell.swift */,
+				6959A5332262C1690052A498 /* JHSaveElipsisButtonCell.swift */,
+				6959A52B2262C1690052A498 /* JHSeperatorCell.swift */,
+				6959A5262262C1690052A498 /* JHSettingBoolCell.swift */,
+				6959A52E2262C1690052A498 /* JHSmallImageCell.swift */,
+				6959A5342262C1690052A498 /* JHSpacerCell.swift */,
+				6959A52F2262C1690052A498 /* JHStatisticsCollectionCell.swift */,
+				6959A5352262C1690052A498 /* JHTitleCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		69D228C42262D73300070D86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69D228C52262D75800070D86 /* UIColorExtension.swift */,
+				69D228C72262D83700070D86 /* NSMutableAttributedStringExtension.swift */,
+				69D228C82262D83700070D86 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		69D228CB2262D8DB00070D86 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				69D228CC2262D8EA00070D86 /* JHBackgroundType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		69F949062262C5490042F2E5 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				69D228BE2262D56400070D86 /* JHAppStoreDescriptionLabel.swift */,
+				69D228BF2262D56400070D86 /* JHStatDisplayLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		69F949072262C6830042F2E5 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				69D228BC2262D55100070D86 /* JHSegueFromLeft.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		69F949082262C7130042F2E5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				69D228B92262D54800070D86 /* JHAppStoreButton.swift */,
+				69D228B82262D54800070D86 /* JHEllipseButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		69FF269B22628D30003D68AC = {
@@ -81,7 +201,13 @@
 		69FF26A722628D30003D68AC /* JHTools */ = {
 			isa = PBXGroup;
 			children = (
-				6995FC9022628E37009572EC /* Color */,
+				69D228CB2262D8DB00070D86 /* Enums */,
+				69D228C42262D73300070D86 /* Extensions */,
+				69F949082262C7130042F2E5 /* Buttons */,
+				69F949072262C6830042F2E5 /* Segues */,
+				69F949062262C5490042F2E5 /* Labels */,
+				6959A5252262C13E0052A498 /* TableViewCells */,
+				693D01802262BC4F00F410FB /* Structs */,
 				69FF26A822628D30003D68AC /* JHTools.h */,
 				69FF26A922628D30003D68AC /* Info.plist */,
 			);
@@ -206,7 +332,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6995FC9422629056009572EC /* UIColorExtension.swift in Sources */,
+				69F949032262C2300042F2E5 /* JHTableViewCellConstants.swift in Sources */,
+				6959A5362262C1690052A498 /* JHSettingBoolCell.swift in Sources */,
+				6959A5392262C1690052A498 /* JHLinkCell.swift in Sources */,
+				69D228C92262D83700070D86 /* NSMutableAttributedStringExtension.swift in Sources */,
+				6959A53D2262C1690052A498 /* JHExpandableSubCell.swift in Sources */,
+				6959A53E2262C1690052A498 /* JHSmallImageCell.swift in Sources */,
+				6959A5422262C1690052A498 /* JHLargeIconCell.swift in Sources */,
+				693D01842262BC8100F410FB /* JHAppIcon.swift in Sources */,
+				69D228C12262D56400070D86 /* JHStatDisplayLabel.swift in Sources */,
+				6959A5442262C1690052A498 /* JHSpacerCell.swift in Sources */,
+				69D228BA2262D54800070D86 /* JHEllipseButton.swift in Sources */,
+				6959A53C2262C1690052A498 /* JHInformationDisplayCell.swift in Sources */,
+				69D228C62262D75800070D86 /* UIColorExtension.swift in Sources */,
+				6959A5382262C1690052A498 /* JHParagraphCell.swift in Sources */,
+				6959A5372262C1690052A498 /* JHExpandableHeaderCell.swift in Sources */,
+				6959A53F2262C1690052A498 /* JHStatisticsCollectionCell.swift in Sources */,
+				6959A5412262C1690052A498 /* JHHeaderSubHeaderCell.swift in Sources */,
+				69D228BB2262D54800070D86 /* JHAppStoreButton.swift in Sources */,
+				69D228C02262D56400070D86 /* JHAppStoreDescriptionLabel.swift in Sources */,
+				69D228BD2262D55100070D86 /* JHSegueFromLeft.swift in Sources */,
+				6959A5402262C1690052A498 /* JHExapandableInformationDisplayCell.swift in Sources */,
+				69D228CD2262D8EA00070D86 /* JHBackgroundType.swift in Sources */,
+				6959A53A2262C1690052A498 /* JHActionCell.swift in Sources */,
+				6959A5432262C1690052A498 /* JHSaveElipsisButtonCell.swift in Sources */,
+				6959A5452262C1690052A498 /* JHTitleCell.swift in Sources */,
+				69D228CA2262D83700070D86 /* StringExtension.swift in Sources */,
+				6959A53B2262C1690052A498 /* JHSeperatorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
