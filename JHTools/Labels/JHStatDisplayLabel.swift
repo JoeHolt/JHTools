@@ -11,7 +11,7 @@ import UIKit
 /**
  A view representing the stat display label in the app store
  */
-class JHStatDisplayLabel: UIView {
+public class JHStatDisplayLabel: UIView {
 
     // MARK: Instanse Variables
     

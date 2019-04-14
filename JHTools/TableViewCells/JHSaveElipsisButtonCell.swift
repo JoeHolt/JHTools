@@ -16,7 +16,7 @@ enum UIClassDisplayButtonCellDisplayType {
 /**
  A cell with a save button and elipsis, similar to the app store
 */
-class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate {
+public class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate {
     
     // MARK: Static methods
 
@@ -49,7 +49,7 @@ class JHSaveElipsisButtonCell: UITableViewCell, JHAppStoreButtonDelegate {
     
     // MARK: AppStoreButtonDelegate
     
-    internal func didTapAppStoreButton(withStyle style: JHAppStoreButtonStyle) {
+    public func didTapAppStoreButton(withStyle style: JHAppStoreButtonStyle) {
         // tell responding classes
         delegate.didTapAppStoreButton(withStyle: style)
         // update style of button and its detail label

@@ -11,7 +11,7 @@ import UIKit
 /**
  A class representing a button with a blue background and three dots for the elipse
  */
-class JHEllipseButton: UIButton {
+public class JHEllipseButton: UIButton {
     
     // MARK: Instance variables
     
@@ -37,22 +37,22 @@ class JHEllipseButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         self.layer.cornerRadius = self.bounds.width / 2
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         self.backgroundColor = UIColor.lightGray
     }
     
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         self.backgroundColor = UIColor.actionBlue
     }
     
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         self.backgroundColor = UIColor.actionBlue
     }

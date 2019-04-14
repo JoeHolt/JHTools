@@ -11,7 +11,7 @@ import UIKit
 /**
  Speerator style of a given style
  */
-class JHSeperatorCell: UITableViewCell {
+public class JHSeperatorCell: UITableViewCell {
     
     // MARK: Styles
     

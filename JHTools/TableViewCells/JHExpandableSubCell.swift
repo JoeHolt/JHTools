@@ -11,7 +11,7 @@ import UIKit
 /**
  Subcell of the filter view
  */
-class JHExpandableSubCell: UITableViewCell {
+public class JHExpandableSubCell: UITableViewCell {
 
     // MARK: Properties
     

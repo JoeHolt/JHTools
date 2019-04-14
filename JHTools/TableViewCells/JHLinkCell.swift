@@ -11,7 +11,7 @@ import UIKit
 /**
  A cell with an outgoing link
  */
-class JHLinkCell: UITableViewCell {
+public class JHLinkCell: UITableViewCell {
     
     // MARK: Instance variables
     

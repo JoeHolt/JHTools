@@ -11,7 +11,7 @@ import UIKit
 /**
  A cell that displays a large icon on the left and a title next to it, used in things like App Icon pickers
  */
-class JHLargeIconCell: UITableViewCell {
+public class JHLargeIconCell: UITableViewCell {
 
     // MARK: Variables
     

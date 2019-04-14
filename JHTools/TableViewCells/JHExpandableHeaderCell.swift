@@ -11,7 +11,7 @@ import UIKit
 /**
  Displays a header cell 
  */
-class JHExpandableHeaderCell: UITableViewCell {
+public class JHExpandableHeaderCell: UITableViewCell {
     
     // MARK: Properties
     

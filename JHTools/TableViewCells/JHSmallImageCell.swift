@@ -10,7 +10,7 @@ import UIKit
 /**
  Cell with a small icon left alligned, similar to settings app
  */
-class JHSmallImageCell: UITableViewCell {
+public class JHSmallImageCell: UITableViewCell {
     
     init(title: String, image: String) {
         super.init(style: .default, reuseIdentifier: nil)

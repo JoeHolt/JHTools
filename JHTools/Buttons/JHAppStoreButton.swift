@@ -8,19 +8,19 @@
 
 import UIKit
 
-enum JHAppStoreButtonStyle: String {
+public enum JHAppStoreButtonStyle: String {
     case save = "Add Course\nto Cart"
     case remove = "Remove Course\nfrom Cart"
 }
 
-protocol JHAppStoreButtonDelegate {
+public protocol JHAppStoreButtonDelegate {
     func didTapAppStoreButton(withStyle style: JHAppStoreButtonStyle)
 }
 
 /**
  A class respresenting a button that says "save" similar to the app store download button
 */
-class JHAppStoreButton: UIButton {
+public class JHAppStoreButton: UIButton {
     
     // MARK: Static
     
@@ -42,24 +42,24 @@ class JHAppStoreButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         self.clipsToBounds = true
         self.layer.cornerRadius = self.bounds.height / 2.0
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         self.backgroundColor = UIColor.lightGray
         delegate.didTapAppStoreButton(withStyle: self.style)
     }
     
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         self.backgroundColor = buttonBackgroundColor
     }
     
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         self.backgroundColor = buttonBackgroundColor
     }

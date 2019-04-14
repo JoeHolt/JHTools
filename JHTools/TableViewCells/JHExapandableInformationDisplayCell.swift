@@ -11,7 +11,7 @@ import UIKit
 /**
  An information cell that when tapped can expand the cells info to display more text
 */
-class JHExapandableInformationDisplayCell: UITableViewCell {
+public class JHExapandableInformationDisplayCell: UITableViewCell {
 
     // MARK: Instance variables
     

@@ -9,7 +9,7 @@
 /**
  Cell with blue text for being selected
  */
-class JHActionCell: UITableViewCell {
+public class JHActionCell: UITableViewCell {
     
     // MARK: Variables
 

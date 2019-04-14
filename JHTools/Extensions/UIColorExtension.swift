@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     static let wiscoRed = UIColor(red: 197.0/255.0, green: 5.0/255.0, blue: 12.0/255.0, alpha: 1.0)
     static let wiscoRedDark = UIColor(red: 155.0/255.0, green: 0, blue: 0, alpha: 1.0)
     static let wiscoBodyText = UIColor(red: 73.0/255.0, green: 73.0/255.0, blue: 73.0/255.0, alpha: 1.0)

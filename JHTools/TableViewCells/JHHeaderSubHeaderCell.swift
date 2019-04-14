@@ -11,7 +11,7 @@ import UIKit
 /**
  Cell with a header and subheader field
  */
-class JHHeaderSubHeaderCell: UITableViewCell {
+public class JHHeaderSubHeaderCell: UITableViewCell {
 
     // MARK: Instance variables
     

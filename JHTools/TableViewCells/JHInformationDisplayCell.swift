@@ -11,7 +11,7 @@ import UIKit
 /**
  Displays a cell with left and right title to dispaly given information
  */
-class JHInformationDisplayCell: UITableViewCell {
+public class JHInformationDisplayCell: UITableViewCell {
 
     // MARK: Instanse variables
     

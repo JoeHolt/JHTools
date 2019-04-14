@@ -11,7 +11,7 @@ import UIKit
 /**
  Cell designed to hold paragraph of information
  */
-class JHParagraphCell: UITableViewCell {
+public class JHParagraphCell: UITableViewCell {
 
     // MARK: Variables
     

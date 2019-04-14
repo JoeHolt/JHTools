@@ -10,9 +10,8 @@ import UIKit
 
 // https://stackoverflow.com/questions/30763519/ios-segue-left-to-right/31411862
 
-class SegueFromLeft: UIStoryboardSegue {
-    override func perform()
-    {
+public class SegueFromLeft: UIStoryboardSegue {
+    override public func perform() {
         let src = self.source
         let dst = self.destination
         

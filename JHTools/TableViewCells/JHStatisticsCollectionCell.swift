@@ -11,7 +11,7 @@ import UIKit
 /**
  Cell holding a collection of statistics to be displayed in large font
  */
-class JHStatisticsCollectionCell: UITableViewCell {
+public class JHStatisticsCollectionCell: UITableViewCell {
 
     // MARK: Instance Variables
     

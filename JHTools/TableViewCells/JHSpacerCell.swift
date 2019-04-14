@@ -11,7 +11,7 @@ import UIKit
 /**
  Cell used as a spacer for testing purposes
  */
-class JHSpacerCell: UITableViewCell {
+public class JHSpacerCell: UITableViewCell {
 
     /**
      Inits cell of given height

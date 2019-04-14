@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol JHSettingCellUpdateDelegate {
+public protocol JHSettingCellUpdateDelegate {
     func switchDidChangeValue(sender: UISwitch)
 }
 
 /**
  Class representing a cell with a Boolean setting
  */
-class JHSettingBoolCell: UITableViewCell {
+public class JHSettingBoolCell: UITableViewCell {
     
     // MARK: Variables
     

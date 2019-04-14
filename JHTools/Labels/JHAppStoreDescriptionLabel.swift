@@ -11,7 +11,7 @@ import UIKit
 /**
  Class representing the label that is shown next to the download button on the store
 */
-class JHAppStoreDescriptionLabel: UILabel {
+public class JHAppStoreDescriptionLabel: UILabel {
 
     // MARK: Instance variables
     

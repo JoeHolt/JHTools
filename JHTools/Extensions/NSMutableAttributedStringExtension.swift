@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
     
     // https://stackoverflow.com/questions/28496093/making-text-bold-using-attributed-string-in-swift
     @discardableResult func bold(_ text: String) -> NSMutableAttributedString {

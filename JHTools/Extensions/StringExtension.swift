@@ -10,7 +10,7 @@ import Foundation
 
 // only used for unit testing, not in production code
 // https://stackoverflow.com/questions/31746223/number-of-occurrences-of-substring-in-string-in-swift
-extension String {
+public extension String {
     /**
      Gets the number of the given charachter
      - parameter of: character to count
