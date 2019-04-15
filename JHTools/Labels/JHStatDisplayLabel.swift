@@ -15,7 +15,7 @@ public class JHStatDisplayLabel: UIView {
 
     // MARK: Instanse Variables
     
-    private var dataLabel: UILabel!
+    public var dataLabel: UILabel!
     private var descriptionLabel: UILabel!
     
     // MARK: Inits
